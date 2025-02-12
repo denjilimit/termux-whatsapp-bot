@@ -105,12 +105,12 @@ const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
             + 'FN:ZakiðŸ–¤\n' // full name
             + 'ORG:Owner Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=6283144780782:+62 831 4478-0782\n' // WhatsApp ID + phone number
+            + 'TEL;type=CELL;type=VOICE;waid=601114083908:+601114083908\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 prefix = "!"
 blocked = []
 limitawal = userDefaultLimit
-cr = '*ZakiGans*'
+cr = '*KyyLimit*'
 memberlimit = memberLimitss
 
 // Functions
@@ -423,7 +423,7 @@ async function starts() {
 			const isSimi = isGroup ? samih.includes(from) : false
 			const isOwner = ownerNumber.includes(sender)
                         const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '6283144780782@s.whatsapp.net'
+                        const NomerOwner = '601114083908@s.whatsapp.net'
                         const botLangs = languages
                         const isEventon = isGroup ? event.includes(from) : false
                         const isRegister = checkRegisteredUser(sender)
